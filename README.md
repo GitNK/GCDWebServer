@@ -49,7 +49,7 @@ Swift Package Manager
 1. From the Xcode menu click File > Swift Packages > Add Package Dependency.
 2. In the dialog that appears, enter the repository URL: https://github.com/swisspol/GCDWebServer.
 3. In Version, select Up to Next Major and take the default option.
-4. Choose 'GCDWebServers' in the Package Product column.
+4. Choose 'GCDWebServer' in the Package Product column.
 
 If you are developing a SPM package, you must add the following dependency to your Package.swift:
 ```swift
@@ -63,7 +63,7 @@ Finally you declare GCDWebServer as a dependency on your target:
 .target(
   name: "YOUR_TARGET_NAME",
   dependencies: [
-    .product(name: "GCDWebServers", package: "GCDWebServer"),
+    .product(name: "GCDWebServer b", package: "GCDWebServer"),
   ]),
 ```
 

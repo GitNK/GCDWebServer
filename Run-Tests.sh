@@ -19,7 +19,7 @@ IOS_TARGET="GCDWebServer (iOS)"
 TVOS_TARGET="GCDWebServer (tvOS)"
 CONFIGURATION="Release"
 
-OSX_TEST_SCHEME="GCDWebServers (Mac)"
+OSX_TEST_SCHEME="GCDWebServer (Mac)"
 
 BUILD_DIR="`pwd`/build"
 PRODUCT="$BUILD_DIR/$CONFIGURATION/GCDWebServer"
